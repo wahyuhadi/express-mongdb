@@ -1,0 +1,21 @@
+{
+	"name": "my-express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "node server.js",
+		"start": "node server.js"
+	},
+	"author": "wahyuhadi",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cookie-parser": "^1.4.3",
+		"express": "^4.16.4",
+		"express-request-logger": "0.0.3",
+		"grpc": "^1.17.0",
+		"helmet": "^3.15.0",
+		"mali": "^0.10.2"
+	}
+}
